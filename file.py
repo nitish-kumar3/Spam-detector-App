@@ -9,7 +9,7 @@ ps = PorterStemmer()
 
 
 
-            
+
 def transform_text(text):
     text = text.lower()
     text = nltk.word_tokenize(text)
@@ -54,6 +54,7 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
 
 
 
