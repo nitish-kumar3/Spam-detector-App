@@ -6,7 +6,10 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
- 
+
+
+
+            
 
 def transform_text(text):
     text = text.lower()
@@ -52,6 +55,7 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
 
 
 
